@@ -1,0 +1,3 @@
+sudo chmod -R 664 /etc/apt/sources.list
+sudo chmod -R 644 /etc/default/locale
+reboot

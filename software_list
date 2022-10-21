@@ -1,0 +1,14 @@
+#Install the list through the package manager
+sudo apt-get update
+sudo atp-get upgrade
+sudo apt-get install cmake -y
+sudo apt-get install bulid-essential -y
+sudo apt-get install python3-pip -y
+sudo apt-get install git -y
+
+#This is language package
+sudo apt install  language-pack-zh-han* -y
+sudo apt install $(check-language-support) -y
+
+#Install via a local package
+sudo dpkg -i ./package/code_1.71.2-1663191218_amd64.deb
